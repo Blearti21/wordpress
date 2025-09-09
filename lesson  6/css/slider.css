@@ -1,0 +1,4 @@
+/* Example slider stylesheet */
+.slider { width:100%; max-width:960px; margin:2rem auto; }
+.slider__track { display:flex; gap:1rem; overflow:auto; scroll-snap-type:x mandatory; }
+.slider__item { flex:0 0 80%; height:200px; background:#e9eef8; border-radius:12px; scroll-snap-align:center; }
