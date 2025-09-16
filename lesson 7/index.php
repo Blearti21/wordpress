@@ -30,5 +30,8 @@
   </div>
 <?php endif; ?>
 
+<div class="box-rounded"> this box has corners.</div>
+<div class="box-rounded-image"> this is image.</div>
+
 <?php get_footer(); ?>
 

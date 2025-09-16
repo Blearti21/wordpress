@@ -27,3 +27,15 @@ h1 {
   margin: 2rem;
   font-weight: 700;
 }
+.box-rounded{
+  background-color: aqua;
+  color: black;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+.box-rounded-image{
+  border: 20px;
+  background-image:url(https://en.wikipedia.org/wiki/Tabby_cat#/media/File:Cat_November_2010-1a.jpg);
+  padding: 20px;
+}
