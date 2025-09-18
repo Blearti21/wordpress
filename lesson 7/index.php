@@ -33,5 +33,8 @@
 <div class="box-rounded"> this box has corners.</div>
 <div class="box-rounded-image"> this is image.</div>
 
+<div class="shadow"> this is box shadow .</div>
+<div class="inner-shadow"> this is box inner shadow.</div>
+
 <?php get_footer(); ?>
 

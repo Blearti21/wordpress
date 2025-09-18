@@ -36,6 +36,23 @@ h1 {
 }
 .box-rounded-image{
   border: 20px;
-  background-image:url(https://en.wikipedia.org/wiki/Tabby_cat#/media/File:Cat_November_2010-1a.jpg);
   padding: 20px;
+  background-image:url(https://en.wikipedia.org/wiki/Tabby_cat#/media/File:Cat_November_2010-1a.jpg);
+  border-image-slice:20;
+  border-image-repeat: repeat;
 }
+
+.shadow{
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 20px;
+  box-shadow:10px 10px 20px  rgb(155, 149, 149);
+}
+
+.inner-shadow{
+  background-color: rgb(146, 22, 22);
+  padding: 20px;
+  box-shadow: inset 0 0 10px rgb(247, 48, 48);
+  color: white;
+}
+
