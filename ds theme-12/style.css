@@ -1,0 +1,94 @@
+/*
+Theme Name: DS Theme
+Theme URI: http://digitalschool.tech/
+Author: Donjete zogaj
+Author URI: http://digitalschool.tech/
+Description: DS is a theme for learning purposes.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dstheme
+Tags: Digital school, learing , wordpress
+*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,
+    sans-serif;
+  margin: 0;
+}
+.site-footer {
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  background: #1b345d;
+}
+h1 {
+  margin: 2rem;
+  font-weight: 700;
+}
+.box-rounded {
+  background-color: lightblue;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 15px;
+}
+
+/* Multiple values */
+.box-ellipse {
+  border-radius: 50px 15px 30px 5px;
+  background-color: peachpuff;
+  padding: 20px;
+}
+.box-border-image {
+  border: 20px solid transparent;
+  padding: 20px;
+  border-image-source: url("data:image/jpeg;base64,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");
+  border-image-slice: 10;
+  border-image-repeat: round;
+}
+.bg-example {
+  background: url("background.jpg") no-repeat center/cover,
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  color: white;
+  padding: 40px;
+}
+.shadow-box {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.inner-shadow {
+  background: #f0f0f0;
+  padding: 20px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.pagination {
+  margin: 2rem 0;
+  text-align: center;
+}
+.pagination__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.pagination__item a,
+.pagination__item span {
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+.pagination__item.is-active span {
+  font-weight: 700;
+  border-color: #333;
+}
+.pagination__item a:hover {
+  border-color: #333;
+}
