@@ -1,0 +1,299 @@
+/*
+Theme Name: Car Sales
+Author: Ty
+Description: Tema për shitje veturash me custom post type dhe navbar.
+Version: 1.0
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-right: 20px;
+}
+
+.navbar-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-menu li a:hover {
+    text-decoration: underline;
+}
+
+.car-listing {
+    list-style: none;
+    padding: 0;
+}
+
+.car-listing li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.contact-section {
+  background: #1e3c72;
+  color: #fff;
+  max-width: 600px;
+  margin: 60px auto 100px auto;
+  padding: 40px 35px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  display: block;
+  color: #e0e0e0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.05rem;
+  font-family: inherit;
+  resize: vertical;
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #d1d1d1;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+  outline: none;
+  box-shadow: 0 0 8px #70a1ff;
+}
+
+.contact-form button {
+  align-self: center;
+  background-color: #70a1ff;
+  color: #1e3c72;
+  border: none;
+  padding: 14px 40px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #5487db;
+  color: #fff;
+}
+
+.contact-success,
+.contact-error {
+  background-color: #2ecc71;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.contact-error {
+  background-color: #e74c3c;
+}
+/* Kontakt - Seksioni i përgjithshëm */
+.contact-section {
+  background: #222f55;
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: 70px auto 100px auto;
+  padding: 50px 40px 60px;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(15, 15, 40, 0.7);
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+/* Titulli */
+.contact-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+/* Mesazhe suksesi dhe gabimi */
+.contact-success, .contact-error {
+  background-color: #1f3a1f;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 35px;
+  box-shadow: 0 0 15px rgba(50, 150, 50, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #a0e0a0;
+}
+
+.contact-error {
+  background-color: #5a1f1f;
+  box-shadow: 0 0 15px rgba(230, 60, 60, 0.7);
+  color: #f4a3a3;
+}
+
+/* Ikona në mesazhe */
+.icon-success, .icon-error {
+  width: 28px;
+  height: 28px;
+  stroke-width: 2.5;
+  flex-shrink: 0;
+}
+
+/* Forma */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Grupe inputësh me floating label */
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+/* Input dhe textarea */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2.5px solid #5f6a9a;
+  color: #e0e0e0;
+  font-size: 1.15rem;
+  padding: 14px 8px 10px 8px;
+  font-weight: 600;
+  resize: none;
+  transition: border-color 0.3s ease;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: transparent;
+  user-select: none;
+}
+
+/* Label si floating */
+.input-group label {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  color: #8b9ecc;
+  font-size: 1rem;
+  font-weight: 500;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* Kur fokusohet input ose textarea ose ka text */
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form input:not(:placeholder-shown),
+.contact-form textarea:not(:placeholder-shown) {
+  border-color: #70a1ff;
+}
+
+.contact-form input:focus + label,
+.contact-form textarea:focus + label,
+.contact-form input:not(:placeholder-shown) + label,
+.contact-form textarea:not(:placeholder-shown) + label {
+  top: -12px;
+  font-size: 0.85rem;
+  color: #70a1ff;
+  font-weight: 700;
+}
+
+/* Butoni i dërgimit */
+.contact-form button {
+  align-self: center;
+  background: linear-gradient(135deg, #5a7de0, #70a1ff);
+  padding: 15px 55px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(70, 115, 255, 0.6);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+  background: linear-gradient(135deg, #4970db, #5a7de0);
+  box-shadow: 0 12px 35px rgba(100, 140, 255, 0.8);
+  outline: none;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .contact-section {
+    padding: 40px 25px 50px;
+    margin: 50px 15px 70px;
+  }
+
+  .contact-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .contact-form button {
+    width: 100%;
+    padding: 15px 0;
+  }
+}
+
