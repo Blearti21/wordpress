@@ -40,6 +40,30 @@ $products = [
         'price' => 950,
         'image' => get_template_directory_uri() . '/assets/images/products/product5.jpg',
     ],
+    6 => [
+        'id'    => 6,
+        'title' => 'Smamsung S24',
+        'price' => 1000,
+        'image' => get_template_directory_uri() . '/assets/images/products/product5.jpg',
+    ],
+    7 => [
+        'id'    => 7,
+        'title' => 'Iphone',
+        'price' => 990,
+        'image' => get_template_directory_uri() . '/assets/images/products/product5.jpg',
+    ],
+    8 => [
+        'id'    => 8,
+        'title' => 'airpods',
+        'price' => 150,
+        'image' => get_template_directory_uri() . '/assets/images/products/product5.jpg',
+    ],
+    9 => [
+        'id'    => 9,
+        'title' => 'PC',
+        'price' => 1050,
+        'image' => get_template_directory_uri() . '/assets/images/products/product5.jpg',
+    ],
 ];
 
 
