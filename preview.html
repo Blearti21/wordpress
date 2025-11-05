@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blearti21 Theme Preview</title>
+  <link rel="stylesheet" href="content/themes/blearti21/style.css" />
+  <style>
+    body { max-width: 800px; margin: 2rem auto; padding: 0 1rem; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    header, footer { background:#f8f9fa; padding: 1rem; margin-bottom: 1rem; }
+    .post { padding: 1rem; border: 1px solid #e5e7eb; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Blearti21</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="post">
+      <h1>Hello from Blearti21 Theme</h1>
+      <div class="entry-content">
+        <p>This is a static preview approximating the theme styles. For a full experience, run the WordPress stack with Docker.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Blearti21</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
